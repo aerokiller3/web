@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-ms">
+            <div class="row h-100 align-items-center">
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                    <img class="image-2 rounded animate__animated animate__lightSpeedInLeft animate__slow" src="img/logo.png">
+                    <br><br><br>
+                    <h4>С помощью нас<br> вы можете создать то, о чем</h4>
+                    <br>
+                    <h1>желаете!</h1>
+                    <br>
+                    <h6>Наши возможности + опыт позволит Вам достичь огромного успеха. Мы верим в Вас! И знаем это на все 100%. Вас не остановить!</h6>
+                    <br>
+                    <form class="d-flex">
+                        <p class="btn btn-primary" id="button-changed">Узнать больше...</p>
+                    </form>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 need-hide">
+                    <img class="image-1 rounded" src="img/header-img.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br><br><br>
+    <div class="txt_1" id="flip">
+        <h4 class="animate__animated animate__fadeInLeftBig animate_slower" style="text-align: center">
+            Что Вам необходимо?
+        </h4>
+    </div>
+    <br>
+    <div class="txt_2" id="panel">
+        <h5 class="" style="text-align: center">
+            В этом блоке представлены интерактивные элементы.
+        </h5>
+    </div>
+
+    <br><br>
+    <div class="container-sm">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="card mb-4 shadow-sm carb">
+                    <div class="card-body carb block-animation">
+                        <img class="image" src="img/f3.png">
+                        <br><br>
+                        <h3 class="cfs"><strong>Первый блок</strong></h3>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Hover on the card and change its color.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="card mb-4 shadow-sm carb">
+                    <div class="card-body carb block-animation">
+                        <img class="image" src="img/f4.png">
+                        <br><br>
+                        <h3 class="cfs"><strong>Второй блок</strong></h3>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Hover on the card and change its color.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="card mb-4 shadow-sm carb">
+                    <div class="card-body carb block-animation">
+                        <img class="image" src="img/f5.png">
+                        <br><br>
+                        <h3 class="cfs"><strong>Третий блок</strong></h3>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Hover on the card and change its color.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="bd">
+        <div class="container-se">
+            <div class="row text-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <h4>Форма заказа товара или услуги</h4>
+                    <br><br>
+                    <form class="form-horizontal" name="validation" onsubmit="return formValidation();">
+                        <div class="row">
+                            <div class="mb-3">
+                                <input placeholder="Имя" name="name">
+                            </div>
+                            <div class="mb-3">
+                                <input placeholder="Фамилия" name="surName">
+                            </div>
+                            <div class="mb-3">
+                                <input placeholder="Введите свой Email" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <input placeholder="Телефон" name="phone">
+                            </div>
+                            <div class="mb-3">
+                                <input placeholder="дд.мм.гггг" name="date">
+                            </div>
+                            <div class="mb-3">
+                                <input placeholder="--:--" name="time">
+                            </div>
+                            <div class="mb-3">
+                                <select name="payment">
+                                    <option value="Default"></option>
+                                    <option value="Наличные">Наличные</option>
+                                    <option value="Безналичный">Безналичный</option>
+                                </select><br />
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="creature"></div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <h4>Форма заказа обратного звонка</h4>
+                    <br><br>
+                    <form class="form-horizontal">
+                        <div class="row">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleInputName" placeholder="Имя" required minlength="3" maxlength="15">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите свой E-mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" id="exampleInputPhone" placeholder="Телефон в формате +7-(xxx)-xxx-xxxx" pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleInputTema" placeholder="Какая тема Вас интересует?" required minlength="3" maxlength="50">
+                            </div>
+                            <div class="mb-3">
+                                <button type="button" class="btn animate-gradient">Отправить вопрос</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-footer">
+            <div class="row text-center">
+                <div class="col-sm">
+                    <h6 class="boxing">© Все на этом сайте защищено</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/valid.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $("#flip").click(function() {
+                $("#panel").slideToggle("slow");
+            });
+        });
+        $(document).ready(function() {
+            $("#button-changed").click(function() {
+                var btn = $("#button-changed");
+                btn.animate({
+                    height: '100px',
+                    opacity: '0.4'
+                }, "slow");
+                btn.animate({
+                    width: '200px',
+                    opacity: '0.8'
+                }, "slow");
+                btn.animate({
+                    height: '36px',
+                    opacity: '0.4'
+                }, "slow");
+                btn.animate({
+                    width: '145.3px',
+                    opacity: '0.8'
+                }, "slow");
+            });
+        });
+    </script>
+</body>
+
+</html>
